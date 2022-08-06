@@ -19,14 +19,15 @@
         //  solution
 
 
-            // var taka = 1700;
+            // var taka = 1000;
 
-            // var oranges = 1000;
+            // var oranges = 400;
 
-            // var apples = 700;
+            // var apples = 300;
 
-            // var harryReturn = oranges - apples;
-
+            // var totalPrice = oranges + apples;
+           
+            //  var harryReturn = taka - totalPrice;
             // console.log(harryReturn);
 
  
@@ -107,8 +108,77 @@
     // Output:
     // 4
 
-    var number = 199;
+    // var number = 119;
 
-    var remainder = (199 % 5);
+    // var remainder = (number % 5);
   
-    console.log(remainder);
+    // console.log(remainder);
+
+
+    
+
+    /* 
+      for-loop while-loop practice
+    
+    
+    */
+
+
+
+     
+ var dailyWork =["Rat 8 tai baje module unlock",
+    "Fota-fot video dekhe practice",
+    "Video dekhe notes nau",
+    "Module ses hole nija nija practice koro", "kono kichu bujhta na parle" , 
+]
+
+
+for(var i=1 ;i<40 ;i++){
+    
+    
+    for(var j=0; j<dailyWork.length;j++){
+     
+        var theDay= dailyWork[j]
+        
+    console.log(theDay);
+     if (theDay === "kono kichu bujhta na parle") {
+        console.log("support session join koro");
+     }
+   
+    }
+
+    }
+   
+
+// for (var index =0; index < dailyWork.length; index++){
+//     console.log(index);
+
+//     for(var i = 0; i<dailyWork.length; i++){
+//         var theDay = dailyWork[i];
+
+//         if (theDay === "kono kichu bujhta na parle") {
+//              console.log("Support session join koro");
+//         }
+//     }
+// }
+    
+    
+
+
+
+
+
+//  reverse way
+
+// for(i=4; i >= 0 ; i--){
+//     var work = dailyWork[i];
+//     console.log(work);
+
+//     if (work === "kono kichu bujhta na parle") {
+//         console.log("support session join koro");
+//     }
+
+   
+    
+    
+// }
